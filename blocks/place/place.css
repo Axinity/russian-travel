@@ -1,0 +1,12 @@
+.place {
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  row-gap: 48px;
+  column-gap: 40px;
+  margin: 0 auto 80px;
+}
+
+.place:last-child {
+  margin: 0 auto 92px;
+}

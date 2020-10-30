@@ -1,0 +1,5 @@
+.place__paragraph-box {
+  display: grid;
+  gap: 26px;
+  align-content: start;
+}
