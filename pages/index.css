@@ -3,6 +3,7 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_underline/header__lang-link_underline.css);
 
@@ -66,11 +67,6 @@
         margin: 0 auto 56px;
       }
 
-    .lead__image {
-        max-width: 928px;
-        max-height: 580px;
-    }
-
     .photo-grid {
         max-width: 928px;
         grid-template-columns: repeat(3, 1fr);
@@ -95,14 +91,9 @@
     }
 
     .cover__title {
-        top: 195px;
-        left: 232px;
+        padding-top: 195px;
     }
 
-    .cover__subtitle {
-        left: 332px;
-        top: 379px;
-    }
 
     .footer {
         max-width: 928px;
@@ -131,17 +122,13 @@
         margin: 0 auto 56px;
       }
 
-    .lead__image {
-        max-width: 768px;
-        max-height: 480px;
-    }
 
     .lead__caption {
         padding-left: 24px;
     }
 
     .intro {
-        padding-left: 24px;
+        padding: 0 24px;
     }
 
     .intro__title {
@@ -160,6 +147,10 @@
         column-gap: 28px;
         margin: 0 auto 80px;
     }
+
+    .place:last-child {
+        margin: 0 auto 90px;
+      }
     
     .place__title {
         font-size: 42px;
@@ -174,6 +165,10 @@
         max-width: 340px;
         max-height: 340px;
     }
+
+    .place__paragraph-box {
+        row-gap: 25px;
+    }
     
     .place__paragraph {
         font-size: 16px;
@@ -186,18 +181,194 @@
     }
 
     .cover__title {
-        top: 115px;
-        left: 104px;
+        padding-top: 115px;
     }
 
-    .cover__subtitle {
-        left: 204px;
-        top: 299px;
-    }
 
     .footer {
         max-width: 720px;
       }
+}
+
+@media (max-width: 660px) {
+    .header {
+        max-width: 288px;
+    }
+    
+    .header__logo {
+        max-width: 142px;
+    }
+
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .lead__title {
+        margin: 48px auto 16px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .lead__subtitle {
+        margin: 0 auto 40px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .place {
+        max-width: 320px;
+        row-gap: 32px;
+        margin: 0 auto 49px;
+        grid-template-columns: auto;
+    }
+    
+    .place:last-child {
+        margin: 0 auto 66px;
+    }
+
+    .place__paragraph {
+        padding: 0 16px;
+    }
+
+    .place__website {
+        display: none;
+    }
+
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        padding: 0 16px;
+    }
+
+    .place__image {
+        max-width: 320px;
+        max-height: 320px;
+    }
+    
+    .place__paragraph-box {
+        row-gap: 25px;
+
+    }
+
+    .cover__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        padding-top: 33px;
+    }
+
+    .cover__subtitle {
+        max-width: 288px;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 16px auto 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        max-width: 186px;
+        margin: 0;
+        padding: 0 0 24px 16px ;
+      }
+
+    .footer__links {
+        flex-direction: column;
+        justify-content: start;
+        justify-items: start;
+    }
+
+    .footer__link {
+        margin: 0 0 32px;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .footer__link:last-of-type {
+        margin-bottom: 48px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    
+
+    .two-blocks-box {
+        max-width: 320px;
+    }   
+
+    .lead {
+        max-width: 320px;
+    }
+
+
+
+    .lead__caption {
+        padding-left: 16px;
+    }
+
+    .intro {
+        padding: 0 16px;
+    }
+
+    .intro__title {
+        margin: 64px auto 40px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .photo-grid {
+        max-width: 288px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        margin: 64px auto 0;
+    }
+
+    .place {
+        max-width: 320px;
+        row-gap: 32px;
+        margin: 0 auto 49px;
+        grid-template-columns: auto;
+    }
+    
+    .place:last-child {
+        margin: 0 auto 66px;
+    }
+
+    .place__paragraph {
+        padding: 0 16px;
+    }
+
+    .place__website {
+        display: none;
+    }
+
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        padding: 0 16px;
+    }
+
+    .place__image {
+        max-width: 320px;
+        max-height: 320px;
+    }
+    
+
+
+    .place__paragraph-box {
+        row-gap: 25px;
+
+    }
+
+    .cover__background {
+        max-width: 320px;
+        height: 200px;
+    }
+
+
+
+
 }
 
 @import url(..);

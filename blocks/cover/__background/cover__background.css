@@ -3,6 +3,7 @@
   max-width: 1184px;
   height: 740px;
   background-size: cover;
+  position: relative;
 }
 
 .cover__background::before {
