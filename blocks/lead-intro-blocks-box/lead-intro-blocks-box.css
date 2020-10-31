@@ -1,0 +1,22 @@
+.lead-intro-blocks-box {
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .lead-intro-blocks-box {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead-intro-blocks-box {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead-intro-blocks-box {
+    max-width: 320px;
+  }
+}
