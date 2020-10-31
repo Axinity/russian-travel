@@ -10,3 +10,24 @@
   z-index: 1;
   position: relative;
 }
+
+@media (max-width: 1024px) {
+  .cover__title {
+    padding-top: 195px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__title {
+    padding-top: 115px;
+  }
+}
+
+@media (max-width: 660px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    padding-top: 33px;
+  }
+}

@@ -4,5 +4,27 @@
   justify-self: center;
   align-items: flex-end;
   max-width: 1184px;
+  padding: 0 48px;
   margin: 0 auto;
+  justify-self: center;
+  align-self: center;
+}
+
+@media (max-width: 1024px) {
+  .header {
+      margin: 0 48px;
+      padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+      margin: 0 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+      margin: 0 16px;
+  }
 }
