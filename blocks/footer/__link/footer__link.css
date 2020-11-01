@@ -13,7 +13,7 @@
   opacity: 0.8;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 680px) {
   .footer__link {
     margin: 0 0 32px;
     font-size: 24px;

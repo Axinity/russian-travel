@@ -2,7 +2,7 @@
   display: flex;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 680px) {
   .footer__links {
     flex-direction: column;
     justify-content: start;

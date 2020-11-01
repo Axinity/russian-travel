@@ -4,7 +4,7 @@
   grid-column: 2;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 680px) {
   .place__website {
     display: none;
   }
